@@ -1,4 +1,4 @@
-# AI Scheduling Agent
+# LLM Scheduling Assistant
 
 This repository contains an AI-powered scheduling system that integrates a Spring Boot backend with an LLM-based agent, enabling users to create calendar events via natural language and synchronize them with external services such as Notion.
 
@@ -7,7 +7,7 @@ The project demonstrates LLM-to-system integration, robust backend design, and p
 
 ## Features
 
--	Natural language → structured event extraction via LLM Agent
+-	Natural language → structured event extraction via LLM 
 -	RESTful backend built with Spring Boot + JPA
 -	Event persistence with MySQL
 -	External service synchronization (Notion API)
@@ -18,6 +18,6 @@ The project demonstrates LLM-to-system integration, robust backend design, and p
 
 -	Backend: Java 21, Spring Boot, Spring Data JPA
 -	Database: MySQL (Dockerized)
--	AI / LLM: Prompt-based LLM Agent (CLI)
+-	AI / LLM: Prompt-based LLM (CLI)
 -	DevOps: Docker, Docker Compose
 -	Config Management: Environment Variables
